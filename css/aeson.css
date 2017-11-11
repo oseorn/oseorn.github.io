@@ -138,7 +138,6 @@ hr {
   background-color:black;
   color:white;
   height:3em;
-  width:30em;
 }
 
 #console-log {
@@ -159,7 +158,6 @@ hr {
   .res{
     background-color:white;
     width:45%;
-    overflow-x: hidden;
     /*border-top: 1px inset rgba(0,0,0, 0.1);*/
   }
 }
