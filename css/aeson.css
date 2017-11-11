@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  height:auto;
+  height:100%;
   width:80%;
   padding: 0 10% 0 10%;
 }
@@ -69,6 +69,32 @@ hr {
   left:-4em;
 }
 
+.console{
+  padding:0;
+  display:flex;
+  align-items:center;
+  background-color:black;
+  color:white;
+  font-size:12px;
+  border:none;
+  font-family:'Courier', monospace;
+  height:100%;
+}
+
+.console:focus {
+  outline: none;
+}
+
+.console--start {
+  display:flex;
+  color:#555;
+  height:100%;
+  text-align:center;
+  align-items:center;
+  font-family:'Courier', monospace;
+  padding: 0 1em 0 1em;
+}
+
 .update-box {
   background-color:black;
   color:white;
@@ -80,10 +106,8 @@ hr {
   margin:0;
 }
 
-.fr {
-  display:inline-block;
-  float:right;
-  justify-content: flex-end;
+.fl {
+  float:left;
 }
 
 .f {
@@ -106,9 +130,25 @@ hr {
 
 #wr {
   background-color: #FFF;
-  height:100%;
   width:86%;
   padding:7% 7% 7% 7%;
+}
+
+#console--div {
+  background-color:black;
+  color:white;
+  height:3em;
+  width:30em;
+}
+
+#console-log {
+  display:none;
+  background-color:black;
+  width:20em;
+  padding:1em 3em 0 3em;
+  color:#AAA;
+  font-family:'Courier', monospace;
+  font-size:12px;
 }
 
 .res {
@@ -119,7 +159,6 @@ hr {
   .res{
     background-color:white;
     width:45%;
-    overflow-x: hidden;
     /*border-top: 1px inset rgba(0,0,0, 0.1);*/
   }
 }
