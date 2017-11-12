@@ -77,7 +77,7 @@ hr {
   color:white;
   font-size:12px;
   border:none;
-  font-family:'Courier', monospace;
+  font-family:'Roboto Mono', monospace;
   height:100%;
 }
 
@@ -103,6 +103,7 @@ hr {
   padding:1.5em 2em 1.5em 2em;
 }
 .update-box p {
+  font-family:"Roboto Mono";
   margin:0;
   font-size:14px;
 }
