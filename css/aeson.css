@@ -26,9 +26,16 @@ img {
   width: 100%;
 }
 
+img.oc {
+  width: 120%;
+  height: 120%;
+  margin-left : 50%;
+  transform:translateX(-50%);
+}
+
 p {
   font-family : "Roboto";
-  font-size:16px;
+  font-size:14px;
 }
 
 a {
@@ -43,13 +50,13 @@ hr {
 
 .title {
   font: 20px "Roboto", sans-serif;
+  font-weight: bold;
   font-weight:1000;
-  padding: 0 0 3em 0;
+  padding: 0 10% 3em 10%;
+  width:80%;
 }
 
 .header {
-  display:flex;
-  justify-content: flex-end;
   height:auto;
   width:100%;
   margin-bottom:2em;
